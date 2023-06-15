@@ -1,0 +1,99 @@
+.servicios .botones {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+  width: 100%;
+}
+
+.servicios .botones .content {
+  display: inline-block;
+  width: 100%;
+  background: var(--quarter-color);
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.servicios .botones .content img {
+  position: relative;
+  left: 0;
+  filter: invert(0);
+  -webkit-filter: invert(0);
+}
+
+.servicios .botones .content:hover {
+  background: var(--primary-color);
+}
+
+.servicios .botones .content:hover img {
+  left: 5px;
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+.servicios .botones .content h3 {
+  color: white;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.servicios .botones .content:hover h3 {
+  color: var(--quarter-color);
+}
+
+.servicios .botones .content:hover .link {
+  color: white;
+}
+
+.servicios .botones .content .link {
+  color: var(--secondary-color);
+  margin-bottom: 0;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .servicios .botones {
+    bottom: -0;
+  }
+
+  .servicios .botones {
+    bottom: -60px;
+  }
+
+  .servicios .botones .content {
+    margin-bottom: 0;
+    height: 120px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

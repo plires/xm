@@ -1,0 +1,200 @@
+.home .tracking {
+
+  margin-bottom: 60px;
+}
+
+.home .tracking .content_tracking {
+  background-image: url('./../../../img/home/tracking.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-top: 35%;
+  margin-bottom: 20%;
+}
+
+.home .tracking .content {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.home .tracking .tablet {
+  max-width: 70%;
+  margin-left: 15%;
+  margin-top: -30%;
+}
+
+
+.home .tracking .content .content_data {
+  order: 1;
+  text-align: center;
+}
+
+.home .tracking .content .content_data h3 {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.home .tracking .content .content_data a {
+  color: var(--quarter-color);
+  font-size: 1.125rem;
+}
+
+.home .tracking .content .content_data a:hover {
+  color: var(--secondary-color);
+}
+
+.home .tracking .logo_xm {
+  margin-bottom: -15%;
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.home .tracking .content_parrafo p {
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .home .tracking .content_tracking {
+    margin-bottom: 15%;
+  }
+
+  .home .tracking .logo_xm {
+    margin-bottom: -10%;
+    max-width: 50%;
+    margin-left: 25%;
+  }
+
+  .home .tracking .content .content_data h3 {
+    font-size: 3rem;
+  }
+
+  .home .tracking .content .content_data p {
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: 1.125rem;
+  }
+
+  .home .tracking .content .content_data a {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .home .tracking .content_tracking {
+    margin-top: 215px;
+  }
+
+  .home .tracking .tablet {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  .home .tracking .logo_xm {
+    max-width: 370px;
+    margin-left: calc(50% - 185px);
+    margin-bottom: -75px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .home .tracking .content_tracking {
+    margin-top: 270px;
+  }
+
+  .home .tracking .content .content_data h3 {
+    margin-top: -30px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .home .tracking {
+    margin-bottom: 100px;
+  }
+
+  .home .tracking .content_tracking {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .home .tracking .content {
+    position: relative;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .home .tracking .content .content_data {
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 500px;
+    height: 250px;
+    padding: 25px 0px 0px 25px;
+  }
+
+  .home .tracking .content .content_data p {
+    margin-left: 0;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .home .tracking .tablet {
+    position: absolute;
+    margin-left: 0;
+    max-width: 490px;
+    margin-top: -45px;
+    right: 0;
+    top: 0;
+  }
+
+  .home .tracking .logo_xm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}

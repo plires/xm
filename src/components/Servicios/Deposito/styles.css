@@ -1,0 +1,52 @@
+.servicios .deposito {
+  background: #f7f7f7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.servicios .deposito .content_data {
+  margin-bottom: 30px;
+}
+
+.servicios .deposito .content_img img {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .servicios .deposito {
+    margin-bottom: 60px;
+  }
+
+  .servicios .deposito .content_data {
+    margin-bottom: 0;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

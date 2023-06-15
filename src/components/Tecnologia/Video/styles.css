@@ -1,0 +1,98 @@
+.tecnologia .video_mudanza {
+  margin-bottom: 60px;
+}
+
+.tecnologia .video_mudanza .video-player {
+  display: none;
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('./../../../img/tecnologia/background-mudanza.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tecnologia .video_mudanza .video {
+  display: none;
+  filter: grayscale();
+}
+
+.tecnologia .video_mudanza .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  mix-blend-mode: color;
+  z-index: 1;
+}
+
+.tecnologia .content_img_mobile {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .tecnologia .content_img_mobile {
+    display: none;
+  }
+
+  .tecnologia .video_mudanza .video-player {
+    display: inline-block;
+  }
+  
+  .tecnologia .video_mudanza .video {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+

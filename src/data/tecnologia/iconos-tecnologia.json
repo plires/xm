@@ -1,0 +1,28 @@
+{
+  "iconos": [
+    {
+      "id": 1,
+      "src_img": "icono-analytics.png",
+      "alt_img": "icono analytics",
+      "title": "data analytics"
+    },
+    {
+      "id": 2,
+      "src_img": "icono-warehousing.png",
+      "alt_img": "icono warehousing",
+      "title": "warehousing"
+    },
+    {
+      "id": 3,
+      "src_img": "icono-transporte.png",
+      "alt_img": "icono transport management",
+      "title": "transport management"
+    },
+    {
+      "id": 4,
+      "src_img": "icono-trazabilidad.png",
+      "alt_img": "icono trazabilidad",
+      "title": "trazabilidad"
+    }
+  ]
+}

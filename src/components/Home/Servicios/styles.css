@@ -1,0 +1,121 @@
+.home .servicios .content_title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home .servicios .content_title h2 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+}
+  
+.home .servicios .content {
+  padding: 0;
+  position: relative;
+}
+
+.home .servicios .content:hover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--quarter-color);
+  opacity: 0.7;
+}
+
+.home .servicios .content .data {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 15px 15px 15px;
+  z-index: 1;
+}
+
+.home .servicios .content .data img {
+  max-width: 15%;
+  margin-bottom: 5px;
+}
+
+.home .servicios .content .data h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+.home .servicios .content .data .parrafo {
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.home .servicios .content:hover .data .parrafo {
+  max-height: 80px;
+}
+
+.home .servicios .content .data .link {
+  color: var(--quarter-color);
+  font-weight: 500;
+  display: inline-block;
+}
+
+.home .servicios .content .data .link:hover {
+  color: white;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .home .servicios .content_title h2 {
+    font-size: 3rem;
+  }
+
+  .home .servicios .content .data h2 {
+    font-size: 2rem;
+  }
+  
+}
+
+@media (min-width: 768px) {
+
+  .home .servicios .content .data h2 {
+    font-size: 2.5rem;
+  }
+
+  .home .servicios .content .data .link {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+  .home .servicios .content_title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .home .servicios .content .data h2 {
+    font-weight: 700;
+    font-size: 2.75rem;
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+}

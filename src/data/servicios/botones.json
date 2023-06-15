@@ -1,0 +1,32 @@
+{
+  "botones": [
+    {
+      "id": 1,
+      "src_img": "flecha-arriba.png",
+      "alt_img": "flecha para arriba boton 1",
+      "title": "despachantes",
+      "to_id": "despachantes"
+    },
+    {
+      "id": 2,
+      "src_img": "flecha-arriba.png",
+      "alt_img": "flecha para arriba boton 2",
+      "title": "logística",
+      "to_id": "logistica"
+    },
+    {
+      "id": 3,
+      "src_img": "flecha-arriba.png",
+      "alt_img": "flecha para arriba boton 3",
+      "title": "depósito",
+      "to_id": "deposito"
+    },
+    {
+      "id": 4,
+      "src_img": "flecha-arriba.png",
+      "alt_img": "flecha para arriba boton 4",
+      "title": "mudanzas",
+      "to_id": "mudanzas"
+    }
+  ]
+}

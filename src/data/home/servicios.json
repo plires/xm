@@ -1,0 +1,40 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "src_img_background": "despachantes.jpg",
+      "alt_img_background": "despachantes",
+      "alt_img_data": "flecha despachantes",
+      "title_data": "despachantes",
+      "text_data": "Asesoramiento integral en materia aduanera. Servicio de despachos de importación y exportación.",
+      "link_data": "/servicios#despachantes"
+    },
+    {
+      "id": 2,
+      "src_img_background": "logistica.jpg",
+      "alt_img_background": "logística",
+      "alt_img_data": "flecha logistica",
+      "title_data": "logística",
+      "text_data": "Ofrecemos la opción de transporte nacional e internacional que se adecúe a sus necesidades en tiempos de tránsito y costos.",
+      "link_data": "/servicios#logistica"
+    },
+    {
+      "id": 3,
+      "src_img_background": "depositos.jpg",
+      "alt_img_background": "depósito",
+      "alt_img_data": "flecha depósito",
+      "title_data": "depósito",
+      "text_data": "Almacenaje y distribución de mercadería en modernas instalaciones con equipamiento de última generacón.",
+      "link_data": "/servicios#deposito"
+    },
+    {
+      "id": 4,
+      "src_img_background": "mudanzas.jpg",
+      "alt_img_background": "mudanzas",
+      "alt_img_data": "flecha mudanzas",
+      "title_data": "mudanzas",
+      "text_data": "Mudanzas nacionales en general, mobiliario de oficinas o particular.",
+      "link_data": "/servicios#mudanzas"
+    }
+  ]
+}

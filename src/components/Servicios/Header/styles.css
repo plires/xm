@@ -1,0 +1,69 @@
+.servicios header {
+  position: relative;
+  background-color: black;
+  height: 82vh;
+  width: 100%;
+  background-image: url('./../../../img/servicios/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 131px;
+}
+
+.servicios header h1 {
+  margin-bottom: 0;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .servicios header h1 {
+    font-size: 2.5rem;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+
+  .servicios header {
+    margin-bottom: 90px;
+  }
+
+  .servicios header h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .servicios header h1 {
+    font-size: 3.5rem;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

@@ -1,0 +1,18 @@
+{
+  "iconosCaracteristicasA": [
+    {
+      "id": 1,
+      "src_img": "icono-tecnologia.png",
+      "alt_img": "icono tecnologia",
+      "title": "Tecnología avanzada",
+      "description": "Continuamente invertimos en tecnología avanzada para mejorar nuestros procesos de gestión de logística. Nuestro sistema de gestión de logística de última generación nos permite brindar una visibilidad completa de los envíos en tiempo real, garantizando transparencia y seguridad en el transporte."
+    },
+    {
+      "id": 2,
+      "src_img": "icono-atencion.png",
+      "alt_img": "icono atencion",
+      "title": "Atención personalizada",
+      "description": "Nuestro enfoque en el trato personalizado con cada uno de nuestros clientes asegura que sus necesidades específicas sean atendidas de manera efectiva. Nos esforzamos por construir relaciones duraderas y de confianza con nuestros clientes."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+.nosotros .iconos_caracteristicas .content_item {
+  margin-bottom: 30px;
+}
+
+.nosotros .iconos_caracteristicas .content_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nosotros .iconos_caracteristicas .content_header img {
+  max-width: 15%;
+}
+
+.nosotros .iconos_caracteristicas .content_header h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .nosotros .iconos_caracteristicas .content_header img {
+    max-width: 10%;
+  }
+
+  .nosotros .iconos_caracteristicas .content_header h3 {
+    font-size: 1.75rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .nosotros .iconos_caracteristicas .content_header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nosotros .iconos_caracteristicas .content_header img {
+    margin-bottom: 10px;
+    max-width: 20%;
+  }
+
+  .nosotros .iconos_caracteristicas .content_header h3 {
+    margin-left: 0;
+  }
+
+  .nosotros .iconos_caracteristicas .content {
+    background: white;
+    margin-bottom: -130px;
+    position: relative;
+    z-index: 1;
+    padding-left: 30px;
+  }
+
+  .nosotros .iconos_caracteristicas .content:nth-child(1) {
+    border-bottom-left-radius: 10px;
+  }
+  
+  .nosotros .iconos_caracteristicas .content:nth-child(2) {
+    border-bottom-right-radius: 10px;
+  }
+  
+  .nosotros .iconos_caracteristicas .content.last:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+  
+  .nosotros .iconos_caracteristicas .content.last:nth-child(2) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+  }
+
+  .nosotros .iconos_caracteristicas .content:last-child {
+    padding-right: 30px;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+  }
+
+  .nosotros .iconos_caracteristicas .content p {
+    margin-bottom: 0;
+  }
+
+  .nosotros .iconos_caracteristicas .content.last {
+    margin-bottom: 0;
+    margin-top: -140px;
+    padding-top: 40px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .nosotros .iconos_caracteristicas .content {
+    margin-bottom: -150px;
+  }
+
+  .nosotros .iconos_caracteristicas .content.last p {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .nosotros .iconos_caracteristicas .content_header h3 {
+    font-size: 2rem;
+  }
+
+  .nosotros .iconos_caracteristicas .content_header img {
+    max-width: 100%;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}

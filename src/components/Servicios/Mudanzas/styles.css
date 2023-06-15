@@ -1,0 +1,48 @@
+.servicios .mudanzas {
+  margin-bottom: 30px;
+}
+
+.servicios .mudanzas h4 {
+  font-weight: 500;
+}
+
+.servicios .mudanzas .content_data {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .servicios .mudanzas {
+    margin-bottom: 60px;
+  }
+
+  .servicios .mudanzas .content_data {
+    margin-bottom: 0;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

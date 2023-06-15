@@ -1,0 +1,64 @@
+{
+  "logos": [
+    {
+      "id": 1,
+      "src_img": "logos-action-time.jpg",
+      "alt_img": "logos-action-time"
+    },
+    {
+      "id": 2,
+      "src_img": "logos-base3.jpg",
+      "alt_img": "logos-base3"
+    },
+    {
+      "id": 3,
+      "src_img": "logos-dellabitta.jpg",
+      "alt_img": "logos-dellabitta"
+    },
+    {
+      "id": 4,
+      "src_img": "logos-fresenius.jpg",
+      "alt_img": "logos-fresenius"
+    },
+    {
+      "id": 5,
+      "src_img": "logos-jeluz.jpg",
+      "alt_img": "logos-jeluz"
+    },
+    {
+      "id": 6,
+      "src_img": "logos-jp.jpg",
+      "alt_img": "logos-jp"
+    },
+    {
+      "id": 7,
+      "src_img": "logos-medina-artigas.jpg",
+      "alt_img": "logos-medina-artigas"
+    },
+    {
+      "id": 8,
+      "src_img": "logos-pavr.jpg",
+      "alt_img": "logos-pavr"
+    },
+    {
+      "id": 9,
+      "src_img": "logos-pronto.jpg",
+      "alt_img": "logos-pronto"
+    },
+    {
+      "id": 10,
+      "src_img": "logos-revlonjpg.jpg",
+      "alt_img": "logos-revlonjpg"
+    },
+    {
+      "id": 11,
+      "src_img": "logos-teatrocolon.jpg",
+      "alt_img": "logos-teatrocolon"
+    },
+    {
+      "id": 12,
+      "src_img": "logos-vazquez.jpg",
+      "alt_img": "logos-vazquez"
+    }
+  ]
+}

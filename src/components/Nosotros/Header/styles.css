@@ -1,0 +1,115 @@
+.nosotros header {
+  position: relative;
+  background-color: black;
+  height: 82vh;
+  width: 100%;
+  background-image: url('./../../../img/nosotros/header-nosotros.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: calc(18vh - 73px);
+}
+
+.nosotros header h1 {
+  margin-bottom: 0;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.nosotros header .xm_img {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  max-width: 50%;
+  margin-left: 5%;
+  z-index: 1;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .nosotros header {
+    height: 80vh;
+    margin-bottom: calc(20vh - 73px);
+  }
+
+  .nosotros header h1 {
+    font-size: 2.5rem;
+  }
+
+  .nosotros header .xm_img {
+    max-width: 315px;
+    bottom: -70px;
+  }
+  
+
+}
+
+@media (min-width: 768px) {
+
+  .nosotros header {
+    height: 74vh;
+    margin-bottom: 26vh;
+  }
+
+  .nosotros header h1 {
+    font-size: 3rem;
+  }
+
+  .nosotros header .xm_img {
+    max-width: 385px;
+    bottom: -125px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  
+  .nosotros header {
+    height: 80vh;
+    margin-bottom: 20vh;
+  }
+
+  .nosotros header .xm_img {
+    max-width: 430px;
+    bottom: -110px;
+  }
+
+  .nosotros header h1 {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .nosotros header {
+    margin-bottom: 30vh;
+  }
+
+  .nosotros header .xm_img {
+    max-width: 500px;
+    bottom: -145px;
+  }
+
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

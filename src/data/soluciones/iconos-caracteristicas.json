@@ -1,0 +1,25 @@
+{
+  "iconos": [
+    {
+      "id": 1,
+      "src_img": "icono-operaciones.png",
+      "alt_img": "icono operaciones",
+      "title": "Operaciones dedicadas y compartidas",
+      "description": "Contamos con más de xxxx m2 de superficie operativa y diseñamos soluciones específicas que responden a las necesidades de diversas industrias."
+    },
+    {
+      "id": 2,
+      "src_img": "icono-infraestructura.png",
+      "alt_img": "icono infraestructura",
+      "title": "Infraestructura a medida",
+      "description": "Ofrecemos soluciones flexibles que acompañan el desarrollo del negocio y responden a las necesidades logísticas."
+    },
+    {
+      "id": 3,
+      "src_img": "icono-compromiso.png",
+      "alt_img": "icono compromiso",
+      "title": "Compromiso con la calidad",
+      "description": "Cumplimos con normas internacionales de calidad, seguridad y ambiente, trabajamos en la mejora continua y en la innovación constante."
+    }
+  ]
+}

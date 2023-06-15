@@ -1,0 +1,44 @@
+.nosotros h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .nosotros h2 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+  .nosotros p {
+    font-size: 1.12rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+  .nosotros p {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+}

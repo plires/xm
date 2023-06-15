@@ -1,0 +1,142 @@
+.home .arrivo_buques {
+  margin-bottom: 60px;
+  background: #dadada;
+}
+
+.home .arrivo_buques .content_buque img {
+  margin-top: -70px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.home .arrivo_buques .content_data {
+  order: 1;
+  padding-bottom: 20px;
+}
+
+.home .arrivo_buques .content_data h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.home .arrivo_buques .content_data p {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.home .arrivo_buques .content_data a {
+  color: var(--secondary-color);
+}
+
+.home .arrivo_buques .content_data a:hover {
+  color: var(--quarter-color);
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+  .home .arrivo_buques .content_data h2 {
+    font-size: 3rem;
+  }
+
+  .home .arrivo_buques .content_data p {
+    font-size: 1.125rem;
+  }
+
+  .home .arrivo_buques .content_data a {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .home .arrivo_buques .content_buque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home .arrivo_buques .content_buque img {
+    margin-top: inherit;
+    width: 100%;
+    margin-left: inherit;
+  }
+
+  .home .arrivo_buques .content_data {
+    order: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .home .arrivo_buques .content_data h2 {
+    font-size: 2.4rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .home .arrivo_buques {
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+  }
+
+  .home .arrivo_buques .content_data h2 {
+    font-size: 3rem;
+  }
+
+  .home .arrivo_buques .content_buque {
+    position: relative;
+  }
+
+  .home .arrivo_buques .content_buque img {
+    position: absolute;
+    left: 15px;
+    top: -125px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  
+  .home .arrivo_buques {
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+
+  .home .arrivo_buques .content_buque img {
+    top: -175px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .home .arrivo_buques .content_buque img {
+    margin-top: 5px;
+    width: 625px;
+    margin-left: 50px;
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+}

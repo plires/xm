@@ -1,0 +1,78 @@
+.faja_contacto {
+  background: var(--quarter-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faja_contacto p {
+  margin-bottom: 0;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.faja_contacto .btn {
+  background: transparent;
+  color: white;
+  border: solid 1px white;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.faja_contacto .btn:hover {
+  background: white;
+  color: var(--secondary-color);
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 992px) {
+
+  .faja_contacto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .faja_contacto .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .faja_contacto .content p {
+    font-size: 1.25rem;
+  }
+
+  .faja_contacto .btn {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

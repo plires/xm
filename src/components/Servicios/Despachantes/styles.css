@@ -1,0 +1,63 @@
+.servicios .despachantes {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #ededed;
+  margin-bottom: 60px;
+}
+
+.servicios .despachantes .content_img img {
+  margin-bottom: 15px;
+  mix-blend-mode: multiply;
+}
+
+.servicios .despachantes .content_data {
+  position: relative;
+}
+
+.servicios .despachantes .content_data .flecha_abajo {
+  position: absolute;
+  bottom: -85px;
+  right: 30px;
+  max-width: 100px;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+.servicios .despachantes .content_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios .despachantes .content_img img {
+  margin-bottom: 0;
+}
+  
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

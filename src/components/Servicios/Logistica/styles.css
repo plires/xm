@@ -1,0 +1,49 @@
+.servicios .logistica {
+  margin-bottom: 60px;
+}
+
+.servicios .logistica .intro {
+  font-weight: 500;
+}
+
+.servicios .logistica .content_data {
+  margin-bottom: 30px;
+}
+
+.servicios .logistica .content_img img {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .servicios .logistica .content_data {
+    margin-bottom: 0;
+  }
+ 
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}

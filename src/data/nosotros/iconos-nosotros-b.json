@@ -1,0 +1,18 @@
+{
+  "iconosCaracteristicasB": [
+    {
+      "id": 1,
+      "src_img": "icono-ambiente.png",
+      "alt_img": "icono ambiente",
+      "title": "Ambiente familiar",
+      "description": "Como una empresa familiar, valoramos la importancia de trabajar en un ambiente de colaboración y cuidado. Nos aseguramos de que cada uno de nuestros empleados se sienta valorado y respetado, lo que se traduce en un servicio excepcional para nuestros clientes."
+    },
+    {
+      "id": 2,
+      "src_img": "icono-servicio.png",
+      "alt_img": "icono servicio",
+      "title": "Servicio logístico internacional",
+      "description": "Expandimos nuestros servicios logísticos a nivel internacional para brindar a nuestros clientes una solución integral para sus necesidades de envío y transporte en todo el mundo."
+    }
+  ]
+}

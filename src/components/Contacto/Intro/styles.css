@@ -1,0 +1,77 @@
+.contacto .intro {
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.contacto .intro .tecnologia_icon .content {
+  background: var(--quarter-color);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+}
+
+.contacto .intro .tecnologia_icon .content img {
+  margin-right: 20px;
+}
+
+.contacto .intro .tecnologia_icon .content h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.contacto .intro .tecnologia_icon {
+  margin-bottom: 30px;
+}
+
+.contacto .intro .data {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+  .contacto .intro .tecnologia_icon .content {
+    max-width: 80%;
+    margin: auto;
+    display: inherit;
+    padding: 30px 30px 30px 50px;
+  }
+
+  .contacto .intro .tecnologia_icon .content img {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  
+}
+
+@media (min-width: 1600px) {
+
+}
