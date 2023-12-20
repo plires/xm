@@ -40,7 +40,7 @@ export default function HeaderTop() {
             <div className='phone'>
               <a
                 className='transition'
-                href={import.meta.env.VITE_PHONE_CLIENT}
+                href={`tel: ${import.meta.env.VITE_PHONE_CLIENT}`}
                 target='_blank'
                 rel='noopener noreferrer'
               >
