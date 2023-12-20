@@ -423,7 +423,7 @@
 
         <td align="center" style="background-color: #FFFFFF;padding: 10px;">
 
-          <a target="_blank" rel="noopener noreferrer" href="tel:{email_phone}">
+          <a target="_blank" rel="noopener noreferrer" href="tel:{phone_client}">
             <img src="{base}img/email/phone-14.png"
               style="margin:0; margin-right: 0; padding:0; padding-right: 20px; border:none; display:inline-block; width: 16px; height: auto;"
               border="0" alt="email" />
