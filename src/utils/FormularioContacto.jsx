@@ -51,23 +51,20 @@ const FormularioContacto = () => {
         if (responseData.success) {
           toast.success(responseData.msg)
           resetForm()
-          setSubmitting(false)
-          setLoading(false)
         } else {
           toast.error(responseData.msg)
-          setSubmitting(false)
-          setLoading(false)
         }
+        setSubmitting(false)
+        setLoading(false)
       })
     } catch (error) {
       // Realizar acciones en caso de error
       toast.error(
         'Aparentemente en este momento no hay conexión con el servidor, por favor intente mas tarde.',
       )
+      setSubmitting(false)
+      setLoading(false)
     }
-
-    setSubmitting(false)
-    setLoading(false)
   }
 
   const initFormDefault = {
