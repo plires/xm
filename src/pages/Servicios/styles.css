@@ -45,20 +45,15 @@
   width: 60%;
 }
 
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .servicios h2 {
     font-size: 3rem;
     text-align: left;
   }
-
 }
 
 @media (min-width: 768px) {
-
   .servicios .content_title {
     align-items: flex-start;
   }
@@ -66,31 +61,24 @@
   .servicios .content_title h2 {
     margin-bottom: -25px;
   }
-
 }
 
 @media (min-width: 992px) {
-
   .servicios p,
   .servicios li {
     font-size: 1.12rem;
   }
-
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
   .servicios p,
   .servicios li {
     font-size: 1.25rem;
   }
-
 }
 
 @media (min-width: 1600px) {
-
 }

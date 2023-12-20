@@ -1,59 +1,39 @@
 {
   "imgsGaleria": [
     {
+      "alt_img": "galeria xm logistica 1",
       "id": 1,
-      "src_img": "galeria-a.jpg",
-      "alt_img": "galeria xm logistica a"
+      "src_img": "galeria-1.jpg"
     },
     {
+      "alt_img": "galeria xm logistica 2",
       "id": 2,
-      "src_img": "galeria-b.jpg",
-      "alt_img": "galeria xm logistica b"
+      "src_img": "galeria-2.jpg"
     },
     {
+      "alt_img": "galeria xm logistica 3",
       "id": 3,
-      "src_img": "galeria-c.jpg",
-      "alt_img": "galeria xm logistica c"
+      "src_img": "galeria-3.jpg"
     },
     {
+      "alt_img": "galeria xm logistica 4",
       "id": 4,
-      "src_img": "galeria-d.jpg",
-      "alt_img": "galeria xm logistica d"
+      "src_img": "galeria-4.jpg"
     },
     {
+      "alt_img": "galeria xm logistica 5",
       "id": 5,
-      "src_img": "galeria-e.jpg",
-      "alt_img": "galeria xm logistica e"
+      "src_img": "galeria-5.jpg"
     },
     {
+      "alt_img": "galeria xm logistica 6",
       "id": 6,
-      "src_img": "galeria-f.jpg",
-      "alt_img": "galeria xm logistica f"
+      "src_img": "galeria-6.jpg"
     },
     {
-      "id": 7,
-      "src_img": "galeria-b.jpg",
-      "alt_img": "galeria xm logistica b"
-    },
-    {
-      "id": 8,
-      "src_img": "galeria-c.jpg",
-      "alt_img": "galeria xm logistica c"
-    },
-    {
-      "id": 9,
-      "src_img": "galeria-d.jpg",
-      "alt_img": "galeria xm logistica d"
-    },
-    {
-      "id": 10,
-      "src_img": "galeria-e.jpg",
-      "alt_img": "galeria xm logistica e"
-    },
-    {
-      "id": 11,
-      "src_img": "galeria-f.jpg",
-      "alt_img": "galeria xm logistica f"
+      "alt_img": "galeria xm logistica 2",
+      "id": 2,
+      "src_img": "galeria-2.jpg"
     }
   ]
 }

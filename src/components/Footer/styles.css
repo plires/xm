@@ -36,7 +36,6 @@ footer nav ul li a:hover {
   color: var(--quarter-color);
 }
 
-
 footer ul li a.active {
   color: var(--quarter-color);
 }
@@ -52,6 +51,7 @@ footer .rrss a {
   margin-right: 30px;
   font-size: 2rem;
   color: white;
+  cursor: pointer;
 }
 
 footer .rrss a:hover {
@@ -77,14 +77,11 @@ footer .libre a:hover {
   color: var(--quarter-color);
 }
 
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-
   footer .logo {
     margin-bottom: 0;
     display: flex;
@@ -112,27 +109,20 @@ footer .libre a:hover {
     border-top: solid grey 1px;
     margin-top: 20px;
   }
-
 }
 
 @media (min-width: 992px) {
-
 }
 
 @media (min-width: 1200px) {
-
   footer {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  
-
 }
 
 @media (min-width: 1400px) {
-
 }
 
 @media (min-width: 1600px) {
-
 }

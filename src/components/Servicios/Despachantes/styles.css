@@ -21,43 +21,30 @@
   max-width: 100px;
 }
 
-
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
+  .servicios .despachantes .content_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.servicios .despachantes .content_img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.servicios .despachantes .content_img img {
-  margin-bottom: 0;
-}
-  
+  .servicios .despachantes .content_img img {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 992px) {
-  
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }

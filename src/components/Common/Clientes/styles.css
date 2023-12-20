@@ -28,7 +28,7 @@
 }
 
 .clientes .slick-arrow {
-  display: none!important;
+  display: none !important;
 }
 
 .clientes .content_galeria_img {
@@ -39,33 +39,24 @@
   margin-bottom: -8px;
 }
 
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .clientes h2 {
     font-size: 3rem;
   }
-
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
-
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
 }
 
 @media (min-width: 1600px) {
-
 }

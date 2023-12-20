@@ -3,7 +3,7 @@
   background-color: black;
   height: 82vh;
   width: 100%;
-  background-image: url('./../../../img/contacto/header-contacto.jpg');
+  background-image: url('/img/contacto/header-contacto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 70% 50%;
@@ -53,44 +53,30 @@
   color: var(--quarter-color);
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .contacto header h1 {
     font-size: 2.5rem;
   }
-
-
 }
 
 @media (min-width: 768px) {
-
   .contacto header h1 {
     font-size: 3rem;
   }
-
 }
 
 @media (min-width: 992px) {
-
   .contacto header h1 {
     font-size: 3.5rem;
   }
-  
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }

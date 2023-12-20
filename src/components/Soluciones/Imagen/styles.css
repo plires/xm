@@ -5,7 +5,7 @@
 .soluciones .imagen .content_img {
   position: relative;
   background-color: black;
-  background-image: url('./../../../img/soluciones/imagen.jpg');
+  background-image: url('/img/soluciones/imagen.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,8 +18,7 @@
 }
 
 .soluciones .faja_fill,
-.soluciones .img_frase_xm
- {
+.soluciones .img_frase_xm {
   display: none;
 }
 
@@ -52,16 +51,8 @@
   margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .soluciones .faja_fill {
     display: inline-block;
     background: var(--quarter-color);
@@ -85,7 +76,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
+  }
 
   .soluciones .faja {
     margin-bottom: 60px;
@@ -94,17 +85,12 @@
   .soluciones .iconos {
     margin-bottom: 60px;
   }
- 
-
 }
 
 @media (min-width: 768px) {
-
-  .soluciones .img_frase_xm
-  {
+  .soluciones .img_frase_xm {
     display: inline-block;
   }
-
 
   .soluciones .imagen .content_img {
     padding-top: 215px;
@@ -114,26 +100,20 @@
   .soluciones .faja_fill {
     height: 140px;
   }
-
 }
 
 @media (min-width: 992px) {
-  
 }
 
 @media (min-width: 1200px) {
-
   .soluciones .imagen .content_data h3 {
     font-size: 3rem;
     margin-bottom: 20px;
   }
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }

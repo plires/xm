@@ -27,7 +27,7 @@
     $recaptcha = verifyRecaptcha($require->recaptchaToken);
 
     if ($recaptcha['success']) {
-      $conexion = new PDO( $_ENV['REACT_APP_DSN'], $_ENV['REACT_APP_DB_USER'], $_ENV['REACT_APP_DB_PASS'] );
+      $conexion = new PDO( $_ENV['VITE_DSN'], $_ENV['VITE_DB_USER'], $_ENV['VITE_DB_PASS'] );
     } else {
       $response_array = [
         'msg' => 'Error Recaptcha, volvé a intentar el envio por favor.'

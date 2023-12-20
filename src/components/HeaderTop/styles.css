@@ -2,19 +2,14 @@
   display: none;
 }
 
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
-
   .header_superior {
     display: flex;
     align-items: center;
@@ -78,17 +73,13 @@
   .header_superior .content .phone a:first-child {
     margin-left: 0;
   }
-
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
 }
 
 @media (min-width: 1600px) {
-
 }

@@ -11,24 +11,14 @@
   -o-border-radius: 10px;
 }
 
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-
- 
-
 }
 
 @media (min-width: 992px) {
-
   .nosotros .intro {
     margin-bottom: 60px;
   }
@@ -51,26 +41,20 @@
   .nosotros .intro .content_data p:last-child {
     margin-bottom: 0;
   }
-
 }
 
 @media (min-width: 1200px) {
-
   .nosotros .intro .content_img img {
     margin-top: -10px;
     height: 275px;
   }
-
 }
 
 @media (min-width: 1400px) {
-
   .nosotros .intro .content_img img {
     height: 305px;
   }
-
 }
 
 @media (min-width: 1600px) {
-
 }

@@ -45,7 +45,7 @@
     $cu = curl_init();
     curl_setopt($cu, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
     curl_setopt($cu, CURLOPT_POST, 1);
-    curl_setopt($cu, CURLOPT_POSTFIELDS, http_build_query(array('secret' => $_ENV['REACT_APP_RECAPTCHA_SECRET_KEY'], 'response' => $token)));
+    curl_setopt($cu, CURLOPT_POSTFIELDS, http_build_query(array('secret' => $_ENV['VITE_RECAPTCHA_SECRET_KEY'], 'response' => $token)));
     curl_setopt($cu, CURLOPT_RETURNTRANSFER, true);
     $response = curl_exec($cu);
     curl_close($cu);
@@ -67,16 +67,16 @@
   
           //ENVIOS
           $mail->setFrom($post['email'], $post['name']);
-          $mail->addAddress($_ENV['REACT_APP_EMAIL_CLIENT'], $_ENV['REACT_APP_NAME_CLIENT']);     //Add a recipient
+          $mail->addAddress($_ENV['VITE_EMAIL_CLIENT'], $_ENV['VITE_NAME_CLIENT']);     //Add a recipient
           $mail->addReplyTo($post['email'], $post['name']);
           break;
         
         case 'Usuario':
   
           //ENVIOS
-          $mail->setFrom($_ENV['REACT_APP_EMAIL_CLIENT'], $_ENV['REACT_APP_NAME_CLIENT']);
+          $mail->setFrom($_ENV['VITE_EMAIL_CLIENT'], $_ENV['VITE_NAME_CLIENT']);
           $mail->addAddress($post['email'], $post['name']);     //Add a recipient
-          $mail->addReplyTo($_ENV['REACT_APP_EMAIL_CLIENT'], $_ENV['REACT_APP_NAME_CLIENT']);
+          $mail->addReplyTo($_ENV['VITE_EMAIL_CLIENT'], $_ENV['VITE_NAME_CLIENT']);
           break;
   
       }
@@ -95,7 +95,7 @@
         
       }
   
-      if ($_ENV['REACT_APP_ENVIRONMENT'] === 'local') {
+      if ($_ENV['VITE_ENVIRONMENT'] === 'local') {
         $mail->isSendmail();
       } else {
         $mail->isSMTP();
@@ -103,21 +103,21 @@
   
       //SERVER SETTINGS
       // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-      $mail->Host       = $_ENV['REACT_APP_SMTP'];
+      $mail->Host       = $_ENV['VITE_SMTP'];
       $mail->SMTPAuth   = true;
-      $mail->Username   = $_ENV['REACT_APP_EMAIL_CLIENT'];
-      $mail->Password   = $_ENV['REACT_APP_PASSWORD'];
-      $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-      $mail->CharSet = $_ENV['REACT_APP_EMAIL_CHARSET'];
-      $mail->Port       = $_ENV['REACT_APP_EMAIL_PORT'];
+      $mail->Username   = $_ENV['VITE_EMAIL_CLIENT'];
+      $mail->Password   = $_ENV['VITE_PASSWORD'];
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+      $mail->CharSet = $_ENV['VITE_EMAIL_CHARSET'];
+      $mail->Port       = $_ENV['VITE_EMAIL_PORT'];
 
-      $mail->SMTPOptions = array(
-        'ssl' => array(
-          'verify_peer' => false,
-          'verify_peer_name' => false,
-          'allow_self_signed' => true
-        )
-      );
+      // $mail->SMTPOptions = array(
+      //   'ssl' => array(
+      //     'verify_peer' => false,
+      //     'verify_peer_name' => false,
+      //     'allow_self_signed' => true
+      //   )
+      // );
   
       //CONTENIDO
       $mail->isHTML(true);                                  
@@ -150,10 +150,10 @@
   function selectEmailTemplate($post, $to) 
   {
 
-    if ($_ENV['REACT_APP_ENVIRONMENT'] === 'local') {
-      $base = $_ENV['REACT_APP_ROOT'] . 'src/';
+    if ($_ENV['VITE_ENVIRONMENT'] === 'local') {
+      $base = $_ENV['VITE_ROOT'] . 'src/';
     } else {
-      $base = $_ENV['REACT_APP_ROOT'];
+      $base = $_ENV['VITE_ROOT'];
     }
 
     //configuro las variables a remplazar en el template
@@ -162,8 +162,6 @@
       '{email_client}',
       '{phone_client}',
       '{phone_show_client}',
-      '{whatsapp_client}',
-      '{whatsapp_show_client}',
       '{origin}',
       '{name_user}',
       '{email_user}',
@@ -173,12 +171,10 @@
     );
 
     $values = array( 
-      $_ENV['REACT_APP_NAME_CLIENT'],
-      $_ENV['REACT_APP_EMAIL_CLIENT'],
-      $_ENV['REACT_APP_PHONE_CLIENT'],
-      $_ENV['REACT_APP_PHONE_SHOW_CLIENT'],
-      $_ENV['REACT_APP_WHATSAPP_CLIENT'],
-      $_ENV['REACT_APP_PHONE_SHOW_CLIENT'],
+      $_ENV['VITE_NAME_CLIENT'],
+      $_ENV['VITE_EMAIL_CLIENT'],
+      $_ENV['VITE_PHONE_CLIENT'],
+      $_ENV['VITE_PHONE_SHOW_CLIENT'],
       $post['origin'],
       $post['name'],
       $post['email'],

@@ -5,12 +5,18 @@
 
 .home .faja_experiencia .gradient {
   height: 10px;
-  background: var(--quarter-color)
+  background: var(--quarter-color);
 }
 
 .home .faja_experiencia .faja {
-  background: rgb(20,8,56);
-  background: linear-gradient(90deg, rgba(20,8,56,1) 0%, rgba(14,79,117,1) 72%, rgba(9,146,175,1) 91%, rgba(5,190,212,1) 100%);
+  background: rgb(20, 8, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 8, 56, 1) 0%,
+    rgba(14, 79, 117, 1) 72%,
+    rgba(9, 146, 175, 1) 91%,
+    rgba(5, 190, 212, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +35,12 @@
 }
 
 .home .faja_experiencia .faja span {
-  background: white!important;
-  width: 2px!important;
-  color: white!important;
-  margin-left: 5px!important;
-  border-radius: 30%!important;
-  margin-bottom: 4px!important;
+  background: white !important;
+  width: 2px !important;
+  color: white !important;
+  margin-left: 5px !important;
+  border-radius: 30% !important;
+  margin-bottom: 4px !important;
 }
 
 .home .faja_experiencia .faja .content_frase {
@@ -47,13 +53,8 @@
   display: none;
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .home .faja_experiencia .faja {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -66,28 +67,23 @@
 
   .home .faja_experiencia .faja span {
     margin-bottom: 0 !important;
-    height: 24px!important;
+    height: 24px !important;
   }
-
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
-
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
   .home .tracking .content_tracking {
-    background-position: 50% 25%!important;
-    height: 625px!important;
+    background-position: 50% 25% !important;
+    height: 625px !important;
     margin-bottom: 140px;
   }
 
@@ -113,16 +109,14 @@
   }
 
   .home .faja_experiencia .faja span {
-    height: 30px!important;
+    height: 30px !important;
   }
 
   .home .tracking .tablet {
-    max-width: 575px!important;
-    top: -50px!important;
+    max-width: 575px !important;
+    top: -50px !important;
   }
-
 }
 
 @media (min-width: 1600px) {
-
 }

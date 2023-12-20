@@ -29,20 +29,14 @@
   color: var(--secondary-color);
 }
 
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-  
 }
 
 @media (min-width: 992px) {
-
   .faja_contacto {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -62,17 +56,13 @@
     margin-left: 30px;
     margin-top: 0;
   }
-  
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }

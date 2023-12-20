@@ -3,7 +3,7 @@
   background-color: black;
   height: 82vh;
   width: 100%;
-  background-image: url('./../../../img/nosotros/header-nosotros.jpg');
+  background-image: url('/img/nosotros/header-nosotros.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,14 +31,8 @@
   z-index: 1;
 }
 
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .nosotros header {
     height: 80vh;
     margin-bottom: calc(20vh - 73px);
@@ -52,12 +46,9 @@
     max-width: 315px;
     bottom: -70px;
   }
-  
-
 }
 
 @media (min-width: 768px) {
-
   .nosotros header {
     height: 74vh;
     margin-bottom: 26vh;
@@ -71,11 +62,9 @@
     max-width: 385px;
     bottom: -125px;
   }
-
 }
 
 @media (min-width: 992px) {
-  
   .nosotros header {
     height: 80vh;
     margin-bottom: 20vh;
@@ -89,11 +78,9 @@
   .nosotros header h1 {
     font-size: 3.5rem;
   }
-
 }
 
 @media (min-width: 1200px) {
-
   .nosotros header {
     margin-bottom: 30vh;
   }
@@ -102,14 +89,10 @@
     max-width: 500px;
     bottom: -145px;
   }
-
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }

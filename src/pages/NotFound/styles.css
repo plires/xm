@@ -1,28 +1,59 @@
+.not_found {
+  position: relative;
+  background: url('./../../img/not-found/not-found.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  margin-top: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.not_found .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.not_found .content p {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+}
 
+.not_found .content p br {
+  display: none;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
+  .not_found {
+    margin-top: -116px;
+  }
 
+  .not_found .content p {
+    font-size: 3rem;
+  }
+
+  .not_found .content p br {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
 }
 
 @media (min-width: 1600px) {
-
 }

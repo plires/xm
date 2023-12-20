@@ -32,28 +32,17 @@
   text-align: center;
 }
 
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
-
 }
 
 @media (min-width: 1200px) {
-
   .soluciones .intro .soluciones_icon .content {
     max-width: 80%;
     margin: auto;
@@ -65,13 +54,10 @@
     margin: 0;
     margin-bottom: 10px;
   }
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }

@@ -4,7 +4,7 @@
   background-position: center;
   width: 100%;
   overflow: hidden;
-  background-image: url('./../../../img/nosotros/container-sin-frase.jpg');
+  background-image: url('/img/nosotros/container-sin-frase.jpg');
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -13,20 +13,14 @@
   text-align: center;
 }
 
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .nosotros .background_img {
     height: 20vh;
   }
-
 }
 
 @media (min-width: 768px) {
-
   .nosotros .background_img {
     height: 50vh;
   }
@@ -34,26 +28,20 @@
   .nosotros .background_img {
     margin-bottom: 12px;
   }
-
 }
 
 @media (min-width: 992px) {
-
   .nosotros .background_img {
     height: 70vh;
     margin-bottom: 0;
   }
-
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
 }
 
 @media (min-width: 1600px) {
-
 }

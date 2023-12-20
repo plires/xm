@@ -33,15 +33,8 @@
   color: var(--quarter-color);
 }
 
-
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .home .arrivo_buques .content_data h2 {
     font-size: 3rem;
   }
@@ -53,11 +46,9 @@
   .home .arrivo_buques .content_data a {
     font-size: 1.5rem;
   }
-
 }
 
 @media (min-width: 768px) {
-
   .home .arrivo_buques .content_buque {
     display: flex;
     justify-content: center;
@@ -82,11 +73,9 @@
   .home .arrivo_buques .content_data h2 {
     font-size: 2.4rem;
   }
-
 }
 
 @media (min-width: 992px) {
-
   .home .arrivo_buques {
     height: 300px;
     padding-top: 30px;
@@ -111,11 +100,9 @@
     left: 15px;
     top: -125px;
   }
-
 }
 
 @media (min-width: 1200px) {
-  
   .home .arrivo_buques {
     margin-bottom: 100px;
     margin-top: 80px;
@@ -124,19 +111,15 @@
   .home .arrivo_buques .content_buque img {
     top: -175px;
   }
-
 }
 
 @media (min-width: 1400px) {
-
   .home .arrivo_buques .content_buque img {
     margin-top: 5px;
     width: 625px;
     margin-left: 50px;
   }
-
 }
 
 @media (min-width: 1600px) {
-
 }

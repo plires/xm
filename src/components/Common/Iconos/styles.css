@@ -17,13 +17,8 @@
   display: none;
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   .iconos {
     padding-top: 40px;
     padding-bottom: 75px;
@@ -33,19 +28,15 @@
     font-size: 1rem;
     font-weight: 700;
   }
-
 }
 
 @media (min-width: 768px) {
-
   .iconos {
     padding-bottom: 40px;
   }
-
 }
 
 @media (min-width: 992px) {
-  
   .iconos .content_icon h4 {
     font-size: 1.25rem;
   }
@@ -53,17 +44,13 @@
   .iconos .content_icon h4 br {
     display: inline-block;
   }
-
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
 }
 
 @media (min-width: 1600px) {
-
 }

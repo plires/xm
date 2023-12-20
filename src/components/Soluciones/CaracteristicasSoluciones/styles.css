@@ -27,23 +27,16 @@
   max-width: 80px;
 }
 
-
-
-
-
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
 }
 
 @media (min-width: 768px) {
-
   .soluciones .caracteristicas .fill {
     background: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+  }
 
   .soluciones .caracteristicas {
     margin-bottom: -140px;
@@ -58,31 +51,24 @@
     position: relative;
     bottom: -35px;
   }
-
 }
 
 @media (min-width: 992px) {
-
   .soluciones .caracteristicas .content_data {
     margin-top: -50px;
   }
-
 }
 
 @media (min-width: 1200px) {
-
   .soluciones .caracteristicas .flecha_abajo {
     max-width: 150px;
     left: 60px;
     bottom: -55px;
   }
-
 }
 
 @media (min-width: 1400px) {
-  
 }
 
 @media (min-width: 1600px) {
-
 }
